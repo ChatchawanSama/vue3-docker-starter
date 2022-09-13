@@ -4,15 +4,21 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <header class="bg-rose-400	text-white">
+    <br>
+    
+    <img alt="Vue logo" class="logo flex" src="@/assets/soybad1.jpg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="หลงรักสาวพัทยา" />
+      <HelloWorld msg="ต่อจากนี้ในค่ำคืนที่ฟ้าร้อง" />
 
       <nav>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6VmtHYkk81yli04paFVxqJ?utm_source=generator&theme=0" width="25%" height="25%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/rewards">Rewards</RouterLink>
+
       </nav>
     </div>
   </header>
